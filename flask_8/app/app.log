@@ -1,0 +1,71 @@
+2024-07-22 09:07:46,166 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-22 09:07:46,167 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-22 09:07:46,177 - INFO -  * Restarting with stat
+2024-07-22 09:07:46,852 - WARNING -  * Debugger is active!
+2024-07-22 09:07:46,866 - INFO -  * Debugger PIN: 963-538-313
+2024-07-22 09:08:22,694 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-22 09:08:22,694 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-22 09:08:22,706 - INFO -  * Restarting with stat
+2024-07-22 09:08:23,444 - WARNING -  * Debugger is active!
+2024-07-22 09:08:23,455 - INFO -  * Debugger PIN: 963-538-313
+2024-07-22 09:37:51,851 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-22 09:37:51,852 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-22 09:37:51,862 - INFO -  * Restarting with stat
+2024-07-22 09:37:52,543 - WARNING -  * Debugger is active!
+2024-07-22 09:37:52,563 - INFO -  * Debugger PIN: 963-538-313
+2024-07-22 09:39:54,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-22 09:39:54,564 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-22 09:39:54,579 - INFO -  * Restarting with stat
+2024-07-22 09:39:55,311 - WARNING -  * Debugger is active!
+2024-07-22 09:39:55,324 - INFO -  * Debugger PIN: 963-538-313
+2024-07-22 09:40:00,171 - INFO - 127.0.0.1 - - [22/Jul/2024 09:40:00] "[33mGET / HTTP/1.1[0m" 404 -
+2024-07-22 09:40:36,499 - INFO - Started handling request for username: kiran
+2024-07-22 09:40:36,499 - INFO - Handling GET request
+2024-07-22 09:40:36,499 - INFO - Started validating user data
+2024-07-22 09:40:36,499 - INFO - Started retrieving user info for: kiran
+2024-07-22 09:40:36,505 - ERROR - Unauthorized access: None trying to access kiran
+2024-07-22 09:40:36,505 - ERROR - Unauthorized access: None trying to access kiran
+2024-07-22 09:40:36,507 - INFO - 127.0.0.1 - - [22/Jul/2024 09:40:36] "[31m[1mGET /api/user/kiran HTTP/1.1[0m" 403 -
+2024-07-22 09:42:21,299 - INFO - Started handling request for username: kiran
+2024-07-22 09:42:21,299 - INFO - Handling GET request
+2024-07-22 09:42:21,299 - INFO - Started validating user data
+2024-07-22 09:42:21,299 - INFO - Started retrieving user info for: kiran
+2024-07-22 09:42:21,299 - ERROR - Unauthorized access: None trying to access kiran
+2024-07-22 09:42:21,299 - ERROR - Unauthorized access: None trying to access kiran
+2024-07-22 09:42:21,300 - INFO - 127.0.0.1 - - [22/Jul/2024 09:42:21] "[31m[1mGET /api/user/kiran HTTP/1.1[0m" 403 -
+2024-07-22 09:44:07,166 - INFO - Started handling request for username: john
+2024-07-22 09:44:07,167 - INFO - Handling POST request
+2024-07-22 09:44:07,171 - INFO - Started creating user profile for: john
+2024-07-22 09:44:07,171 - INFO - User created: john, {'email': 'john@example.com', 'age': 28, 'mobile': '1234567890', 'gender': 'male', 'blood_group': 'B+', 'role': 'user'}
+2024-07-22 09:44:07,171 - INFO - Finished creating user profile for: john
+2024-07-22 09:44:07,177 - INFO - 127.0.0.1 - - [22/Jul/2024 09:44:07] "[35m[1mPOST /api/user/john HTTP/1.1[0m" 201 -
+2024-07-22 09:44:58,003 - INFO - Started handling request for username: kiran3
+2024-07-22 09:44:58,003 - INFO - Handling POST request
+2024-07-22 09:44:58,003 - INFO - Started creating user profile for: kiran3
+2024-07-22 09:44:58,003 - INFO - User created: kiran3, {'email': 'kiran3@example.com', 'age': 30, 'mobile': '1234567890', 'gender': 'male', 'blood_group': 'A+', 'role': 'user'}
+2024-07-22 09:44:58,004 - INFO - Finished creating user profile for: kiran3
+2024-07-22 09:44:58,004 - INFO - 127.0.0.1 - - [22/Jul/2024 09:44:58] "[35m[1mPOST /api/user/kiran3 HTTP/1.1[0m" 201 -
+2024-07-22 09:49:24,907 - INFO - Started handling request for username: kiran
+2024-07-22 09:49:24,908 - INFO - Handling GET request
+2024-07-22 09:49:24,908 - INFO - Started validating user data
+2024-07-22 09:49:24,908 - INFO - Started retrieving user info for: kiran
+2024-07-22 09:49:24,908 - ERROR - Unauthorized access: None trying to access kiran
+2024-07-22 09:49:24,908 - ERROR - Unauthorized access: None trying to access kiran
+2024-07-22 09:49:24,910 - INFO - 127.0.0.1 - - [22/Jul/2024 09:49:24] "[31m[1mGET /api/user/kiran?X-Current-User=radha&X-Is-Admin=true HTTP/1.1[0m" 403 -
+2024-07-22 09:50:11,861 - INFO - Started handling request for username: kiran
+2024-07-22 09:50:11,861 - INFO - Handling GET request
+2024-07-22 09:50:11,861 - INFO - Started validating user data
+2024-07-22 09:50:11,862 - INFO - Started retrieving user info for: kiran
+2024-07-22 09:50:11,862 - ERROR - Unauthorized access: None trying to access kiran
+2024-07-22 09:50:11,862 - ERROR - Unauthorized access: None trying to access kiran
+2024-07-22 09:50:11,863 - INFO - 127.0.0.1 - - [22/Jul/2024 09:50:11] "[31m[1mGET /api/user/kiran?X-Current-User=kiran&X-Is-Admin=true HTTP/1.1[0m" 403 -
+2024-07-22 09:52:42,311 - INFO - Started handling request for username: radha
+2024-07-22 09:52:42,311 - INFO - Handling PATCH request
+2024-07-22 09:52:42,322 - INFO - Started updating user profile for: radha
+2024-07-22 09:52:42,322 - INFO - User updated: radha, {'age': 31}
+2024-07-22 09:52:42,322 - INFO - Finished updating user profile for: radha
+2024-07-22 09:52:42,323 - INFO - 127.0.0.1 - - [22/Jul/2024 09:52:42] "PATCH /api/user/radha HTTP/1.1" 200 -
